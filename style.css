@@ -1,69 +1,85 @@
-/* styling de body*/
-body
-{
-	width: 1100px;
-}
 /* styling de violet*/
-#violet
+#cuda
 {
 	background: #87509c;
-	position: static;
+	height: 300px;
 }
-#violet img
+#cuda img
 {
-	margin-top: 30px;
+	padding-top: 20px;
 	margin-left: 100px;
 }
-#violet p
+#cuda ul li
+{
+	list-style-type: none;
+	color: white;
+	float: right;
+	margin-right: 15px;
+}
+#cuda p
 {
 	color: white;
 	text-align: center;
 	font-size:x-large;
-}
-#violet ul
-{
-	list-style-type: none;
-	float: right;
-	color: white;
+	padding-top: 30px;
 }
 p span
 {
-	font-size: small;
+	color: white;
+	background: #eb7d4b;
+	border color: #eb7d4b solid 2px;
+	padding: 10px;
+	font-size: x-small;
 }
 
-/* styling de vert*/
-#vert
+/* styling de services*/
+#services
 {
 	background: #17c2a4;
+	overflow: hidden;
 }
-#vert h1
+#services h1
 {
 	text-align: center;
 }
-#vert p
+#services p
 {
 	color: white;
 	text-align: center;
+}
+.icons img
+{
+	float: left;
+	padding-top: 4px;
+	padding-left: 60px;
+	margin-left: 100px;
+}
+.titre h1
+{
+	color: white;
 }
 
 /* styling de team*/
 #team
 {
 	background: #e7f1f8;
+	overflow: hidden;
 }
 #team h1
 {
 	text-align: center;
 }
-#team p
+.blabla img
 {
-	text-align: center;
+	padding: 7px;
+	margin-left: 70px;
 }
 
 /* styling de skilss*/
 #skills
 {
 	background: #ffffff;
+	overflow: hidden;
 }
 #skilss h1
 {
@@ -74,44 +90,68 @@ p span
 	text-align: center;
 	font-size: small;
 }
+.niveau
+{
+	padding-left: 250px;
+	margin-left: 80px; 
+	display: inline-block;
+}
 
 /* styling de port*/
 #port
 {
 	background: #ffdd99;
+	overflow: hidden;
 }
-#port h1
+# port h1
 {
 	text-align: center;
 }
 #port div p
 {
 	text-align: center;
+	color: black;
 }
-#port li
+.entete li
 {
-	text-align: center;
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 50px;
+	padding-left: 90px;  
+}
+.computer img
+{
+	padding: 40px;
 }
 
 /* styling de poeple*/
 #people
 {
 	background: #d74680;
+	overflow: hidden;
 }
 #people h1
 {
 	text-align: center;
+	color: white;
 }
 #people p
 {
 	text-align: center;
-	font-size: small;
+	font-size: medium;
+	color: white;
+}
+.pointe img
+{
+	padding: 30px;
+	margin-right: 40px;
 }
 
 /* styling de get*/
 #get
 {
 	background: #3c5499;
+	overflow: hidden;
 }
 #get h1
 {
@@ -123,8 +163,17 @@ p span
 	text-align: center;
 	color: white;
 }
-#get ol li
+.liens li
+{
+	color: white;
+	list-style-type: none;
+	padding: 8px;
+}
+.reseaux li
 {
 	background: #344b8e;
 	list-style-type: none;
+	display: inline-block;
+	margin-left: 70px;
+	padding: 8px;
 }
