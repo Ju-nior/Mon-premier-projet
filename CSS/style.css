@@ -1,0 +1,394 @@
+@font-face {
+  font-family: "TitilliumWeb-Regular";
+  src: url("../Fonts/TitilliumWeb-Regular.ttf");
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* styling de violet*/
+#cuda
+{
+    width: 100%;
+	height: 596px;
+    display: inline-block;
+	background-color: #87509c;
+    background-repeat: no-repeat;
+    background-position: 210px 56px;
+    font-family: "TitilliumWeb-Regular";
+    background-image: url("../Images/cuda.png");
+}
+#menu{
+    margin-left: 56%;
+    margin-top: 56px
+}
+#menu ul {
+    margin: 0px;
+    height: auto;
+}
+#menu li { 
+    padding: 20px; 
+    display: inline; 
+}
+#menu a {
+    color: #fff;
+    padding: 7px;
+    text-decoration: none;
+}
+#menu a:hover {
+    transition: .7s;
+    border-radius: 3px;
+    background-color: #643a79;
+}
+#hi{
+	color: white;
+	text-align: center;
+	font-size:x-large;
+    margin-top: 10%;
+}
+#work{
+    color: white;
+    margin-top: 10%;
+    margin-left: 45%;
+    padding: 20px 50px;
+    font-size: x-small;
+    border-radius: 5px;
+    background: #eb7d4b;
+    display: inline-block;
+}
+
+/* styling de services */
+
+#services{
+    height: 747px;
+    width: 100%;
+    background-color: #17c2a4;
+    font-family: "TitilliumWeb-Regular";
+}
+#title{
+    color: #fff;
+    padding-top: 100px;
+    text-align: center;
+}
+#we{
+    border-bottom: 1px solid grey;
+}
+#paragraph{
+    color: #fff;
+    padding-top: 30px;
+    text-align: center;
+}
+#flag,
+#design,
+#development,
+#rocket{
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+    display: inline-block;
+}
+.brand{
+    padding-top: 50px;
+}
+.comment{
+    padding-top: 30px;
+}
+
+/* styling de team */
+
+#team{
+    width: 100%;
+    height: 915px;
+    background-color: #e7f1f8;
+    font-family: "TitilliumWeb-Regular";
+}
+#title2{
+    color: #3c4761;
+    padding-top: 100px;
+    text-align: center;
+}
+#eau{
+    border-bottom: 1px solid grey;
+}
+#paragraph2{
+    color: #3c4761;
+    padding-top: 30px;
+    text-align: center;
+}
+#first,
+#second,
+#third,
+#fourth{
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+    display: inline-block;
+}
+.name{
+    color: #27283d;
+    padding-top: 43px;
+}
+.position{
+    color: #30bae7;
+    padding-top: 17px;
+}
+.comment2{
+    padding-top: 30px;
+    padding-bottom: 36px;
+}
+#facebook:hover{
+    src: url("../Images/cuda.png");
+}
+
+/* styling de skilss */
+
+#skills{
+    width: 100%;
+    height: 655px;  
+    font-family: "TitilliumWeb-Regular";
+}
+#title3{
+    color: #3c4761;
+    padding-top: 100px;
+    text-align: center;
+}
+#ot{
+    border-bottom: 1px solid grey;
+}
+#paragraph3{
+    color: #3c4761;
+    padding-top: 30px;
+    text-align: center;
+}
+#web,
+#html,
+#design,
+#ux{
+    color: #3c4761;
+    margin-top: 100px;
+    margin-left: 130px;
+    text-align: center;
+    display: inline-block;
+}
+.fonction{
+    margin-top: 36px;
+}
+.percent{
+    top: 85px;
+    position: relative;
+}
+
+
+/* styling de port */
+#port{
+    width: 100%;
+    height: 1423px;
+	background: #ffdd99;
+    font-family: "TitilliumWeb-Regular";
+}
+#title4{
+    color: #3c4761;
+    padding-top: 100px;
+    text-align: center;
+}
+#or{
+    border-bottom: 1px solid grey;
+}
+#paragraph4{
+    color: #3c4761;
+    padding-top: 30px;
+    text-align: center;
+}
+#menu2{
+    margin-top: 40px;
+    text-align: center;
+}
+#menu2 ul {
+    margin: 0px;
+    height: auto;
+}
+#menu2 li { 
+    padding: 20px; 
+    display: inline; 
+}
+#menu2 a {
+    color: #000;
+    padding: 7px;
+    text-decoration: none;
+}
+#menu2 a:hover {
+    transition: .7s;
+    border-radius: 3px;
+    background-color: #fff;
+}
+#computer1{
+    float: left;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 100px;
+    display: inline-block;
+}
+#computer2{  
+    margin-top: 60px;
+    text-align: center;
+}
+#computer3{
+    float: left;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 100px;
+    display: inline-block;
+}
+#computer4{
+    margin-top: 60px;
+    text-align: center;
+}
+.isometric,
+.viro{
+    margin-top: 40px;
+}
+#btn{
+    display: inline-block;
+    margin-top: 130px;
+    margin-left: 44%;
+    padding: 10px 30px;
+    text-align: center;
+    border: 2px solid #17c2a4;
+    background-color: #17c2a4;
+    border-bottom-color: #14a58c;
+}
+
+/* styling de poeple */
+
+#people{
+    width: 100%;
+    height: 895px;
+	background: #d74680;
+    font-family: "TitilliumWeb-Regular";
+}
+#title5{
+    color: #3c4761;
+    padding-top: 100px;
+    text-align: center;
+}
+#or5{
+    border-bottom: 1px solid grey;
+}
+#paragraph5{
+    color: #3c4761;
+    padding-top: 30px;
+    text-align: center;
+}
+#id_complet1,
+#id_complet2,
+#id_complet3,
+#id_complet4{
+    float: left;
+    width: 350px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 200px;
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-image: url("../Images/point noir.png");
+}
+.ndem{
+    color: #fff;
+    line-height: 22px;
+    padding-left: 100px;
+    display: inline-block;
+}
+.name-prename{
+    margin-top: 20px;
+    display: inline-block;
+}
+.post-occuped{
+    color: #facd96;
+}
+
+
+/* styling de get */
+#get{
+    width: 100%;
+    height: 819px;
+	background-color: #3c5499;
+    font-family: "TitilliumWeb-Regular";
+}
+#title6{
+    color: #fff;
+    padding-top: 100px;
+    text-align: center;
+}
+#or6{
+    border-bottom: 1px solid grey;
+}
+#paragraph6{
+    color: #fff;
+    padding-top: 30px;
+    text-align: center;
+}
+#form{
+    padding-top: 70px;
+    margin-left: 300px;
+}
+.input{
+    border: none;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: #273a71;
+    padding: 15px 150px 15px 20px;
+}
+#textarea{
+    border: none;
+    margin-top: 25px;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: #273a71;
+    padding: 15px 478px 190px 20px;
+}
+#send{
+    color: #fff;
+    margin-top: 60px;
+    margin-left: 42%;
+    padding: 15px 50px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #30bae7;
+    border: 3px solid #30bae7;
+    border-bottom-color: #299ec5;
+}
+
+        /* styling de footer */
+
+#footer{
+    width: 100%;
+    height: 112px;
+    background-color: #344b8e;
+    font-family: "TitilliumWeb-Regular";
+}
+#menu3{
+    padding-top: 50px;
+    text-align: center;
+}
+#menu3 ul {
+    margin: 0px;
+    height: auto;
+}
+#menu3 li { 
+    padding: 20px; 
+    display: inline; 
+}
+#menu3 a {
+    color: #000;
+    padding: 7px;
+    text-decoration: none;
+}
+#menu3 a:hover {
+    color: #30bae7;
+    transition: .7s;
+    border-radius: 3px;
+}

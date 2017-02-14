@@ -2,181 +2,261 @@
 <html>
 <head>
 	<title>Mon Devoir html et css</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="CSS/reset.css">
 </head>
 <body>
-		<div id="cuda">
-				<div>
-						<img src="cuda.png">
-				</div>
-				<div>
-					<ul>
-						<li>CONTACT</li>
-						<li>BLOG</li>
-						<li>WORK</li>
-						<li>ABOUT</li>
-						<li style="background:#643a79;border color: #643a79 solid 20px;">HOME</li>
-					</ul>
-				</div>
-				<div>
-						<p>Hi there! we are the new kids on the block<br>and we build awesome websites and mobile apps.</p>
-				</div>
-				<div>
-						<p><span>WORK WITH US</span></p>
-				</div>
-		</div>
+    
+            <!-- Cuda -->
+    <div id="cuda">  
+        <div id="menu">
+            <nav>
+                <ul id="list">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">WORK</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p id="hi">Hi there! we are the new kids on the block<br>
+                    and we build awesome websites and mobile apps.</p>
+        <p id="work">WORK WITH US</p>
+    </div>
 
-		<div id="services">
-				<div>
-					<h1 style="color:white;">SERVICES WE PROVIDE</h1>
-				</div>
-				<div>
-					<p>We are working both individuals ans business from all over the globe<br>to create awesome websites and applications.</p>
-				</div>
-				<div>
-					<div class="icons">
-						<img src="flag.png"><img src="crayon.png"><img src="settings.png"><img src="rocket.png">
-					</div>
-					<div class="titre">
-						<h1>BRANDING</h1>
-						<h1>DESIGN</h1>
-						<h1>DEVELOPMENT</h1>
-						<h1>ROCKET SCIENCE</h1>
-					</div>
-					<div class="comments">
-						<p>Lorem ipsum dolor sit amet,<br>consectuer adipiscing elit,<br>sed diam nonummy nibh.</p>
-						<p>Sed ut perspiciatis unde<br>omnis iste natus error sir<br>voluptatem</p>
-						<p>At vero eos et accusamus et<br>iusto odio dignissimos qui<br>bladitiis praesentium.</p>
-						<p>Et harum quidem rerum est<br>et expedita distinctio. Nam<br>liberto tempore.</p>
-					</div>
-		</div>
-
-		<div id="team">
-				<div>
-					<h1>MEET OUR BEAUTIFUL TEAM</h1>
-				</div>
-				<div>
-						<p style="text-align: center;color: black;">We are a small team of designers and developers, who help brands with big ideas.</p>
-				</div>
-				<div class="blabla">
-						<img src="point noir.png">
-						<img src="point noir.png">
-						<img src="point noir.png">
-						<img src="point noir.png">
-				</div>
-				<div class="identites">
-						<p style="color:black";>ANNE HATHAWAY</p>
-						<p style="color:black";>KATE UPTON</p>
-						<p style="color:black";>OLIVIA WILDE</p>
-						<p style="color:black";>ASHLEY GREENE</p>
-				</div>
-				<div class="metiers">
-						<p style="color: #30bae7";>CEO / Marketing Guru</p>
-						<p style="color: #30bae7";>creation Director</p>
-						<p style="color: #30bae7";>Lead Design</p>
-						<p style="color: #30bae7";>SEO / Developer</p>
-				</div>
-				<div class="commentaires">
-						<p style="color:black";>Lorem ipsum dolor sit amet,<br>consectuer adispiscing elit,<br>sed diam nonummy nibh<br>eiusmod tincidunt ut laoreet<br>dolore magna.</p>
-						<p style="color:black";>Dius aute irure dolor in in<br>vopultate velit esse cillum<br>dolore fugiat nulla pariatur.<br>Excepteur sint occaecat non<br>diam proident</p>
-						<p style="color:black";>Nemo enim ipsam voluptas<br>sit aspernatur aut<br>odit aut fugit, sed quia consequuntur<br>magni dolores eos qui ratio-<br>ne voluptatem nesciun</p>
-						<p style="color:black";>Sed ut perspiciatis unde<br>omnis iste natus error sit<br> voluptatem accusantium<br>doloremque laudantium,<br>totam rem aperiam.</p>
-				</div>
-				<div class="contact">
-						<img src="fb.png" style="margin: 5px;"><img src="twitter.png" style="margin: 5px;"><img src="link.png" style="margin: 5px;"><img src="mail.png " style="margin: 5px;">
-						<img src="twitter.png" style="padding: 5px;"><img src="link.png" style="padding: 5px;"><img src="mail.png" style="padding: 5px;">
-						<img src="fb.png" style="margin: 5px;"><img src="twitter.png" style="margin: 5px;"><img src="link.png" style="margin: 5px;"><img src="mail.png " style="margin: 5px;">
-						<img src="twitter.png" style="padding: 5px;"><img src="link.png" style="padding: 5px;"><img src="mail.png" style="padding: 5px;">
-				</div>
+		
+        <!-- SERVICES -->
+    
+    <div id="services">
+        <p id="title">SERVICES<span id="we"> WE </span>PROVIDE</p>
+        <p id="paragraph">We are working with both individuals and                     businesses from all over the globe<br> 
+                    to create awesome websites and applications.</p>
+        
+        <div id="flag">
+            <img src="Images/flag.png">
+            <p class="brand">BRANDING</p>
+            <p class="comment">Lorem ipsum dolor sit amet,<br> 
+                consectetuer adipiscing elit,<br>
+                sed diam nonummy nibh.</p>
+        </div>
+        
+        <div id="design">
+            <img src="Images/crayon.png">
+            <p class="brand">BRANDING</p>
+            <p class="comment">Lorem ipsum dolor sit amet,<br> 
+                consectetuer adipiscing elit,<br>
+                sed diam nonummy nibh.</p>
+        </div>
+        
+        <div id="development">
+            <img src="Images/settings.png">
+            <p class="brand">BRANDING</p>
+            <p class="comment">Lorem ipsum dolor sit amet,<br> 
+                consectetuer adipiscing elit,<br>
+                sed diam nonummy nibh.</p>
+        </div>
+        
+        <div id="rocket">
+            <img src="Images/rocket.png">
+            <p class="brand">BRANDING</p>
+            <p class="comment">Lorem ipsum dolor sit amet,<br> 
+                consectetuer adipiscing elit,<br>
+                sed diam nonummy nibh.</p>
+        </div>
+        
+    </div>    
+    
+    <div id="team">
+        <p id="title2">MEET OUR B<span id="eau">EAU</span>TIFUL TEAM</p>
+        <p id="paragraph2">We are a small team of designers and                        developers, who help brands with big ideas.</p>
+        
+            <div id="first">
+                <img src="Images/point noir.png">
+                <p class="name">ANNE HATHAWAY</p>
+                <p class="position">CEO / Marketing Guru</p>
+                <p class="comment2">Lorem ipsum dolor sit amet, <br>
+                        consectetuer adipiscing elit,<br> sed diam nonummy nibh<br> euismod tincidunt ut laoreet<br> dolore magna.<br>
+                        sed diam nonummy nibh.</p>
+                <img src="Images/fb.png">
+                <img src="Images/twitter.png">
+                <img src="Images/link.png">
+                <img src="Images/mail.png">
+            </div>
+        
+            <div id="second">
+                <img src="Images/point noir.png">
+                <p class="name">KATE UPTON</p>
+                <p class="position">Creative Director</p>
+                <p class="comment2">Lorem ipsum dolor sit amet, <br>
+                        consectetuer adipiscing elit,<br> sed diam nonummy nibh<br> euismod tincidunt ut laoreet<br> dolore magna.<br>
+                        sed diam nonummy nibh.</p>
+                <img src="Images/fb.png">
+                <img src="Images/twitter.png">
+                <img src="Images/link.png">
+                <img src="Images/mail.png">
+            </div>
+        
+            <div id="third">
+                <img src="Images/point noir.png">
+                <p class="name">OLIVIA WILDE</p>
+                <p class="position">Lead Designer</p>
+                <p class="comment2">Lorem ipsum dolor sit amet, <br>
+                        consectetuer adipiscing elit,<br> sed diam nonummy nibh<br> euismod tincidunt ut laoreet<br> dolore magna.<br>
+                        sed diam nonummy nibh.</p>
+                <img src="Images/fb.png">
+                <img src="Images/twitter.png">
+                <img src="Images/link.png">
+                <img src="Images/mail.png">
+            </div>
+        
+            <div id="fourth">
+                <img src="Images/point noir.png">
+                <p class="name">ASHLEY GREENE</p>
+                <p class="position">SEO / Developer</p>
+                <p class="comment2">Lorem ipsum dolor sit amet, <br>
+                        consectetuer adipiscing elit,<br> sed diam nonummy nibh<br> euismod tincidunt ut laoreet<br> dolore magna.<br>
+                        sed diam nonummy nibh.</p>
+                <img src="Images/fb.png" id="facebook">
+                <img src="Images/twitter.png">
+                <img src="Images/link.png">
+                <img src="Images/mail.png">
+            </div>
+        
+    </div>
+                    
 
 		<div id="skills">
-				<div>
-					<h1>WE GOT SKILLS</h1>
-				</div>
-				<div>
-					<p>Lorem ipsum dolor sit amet, consectuer adispisicing elit, sed do eiusmond<br>tempor incidicunt ut labore et dolore magna aliqua.</p>
-				</div>
-				<div class="niveau">
-					<img src="web design.png" /><img src="html css.png" /><img src="graphic design.png" /><img src="ui.png" />	
-				</div>
+            
+            <p id="title3">WE G<span id="ot">OT SK</span>ILLS</p>
+            <p id="paragraph3">Lorem ipsum dolor sit amet, consectuer adispisicing elit, sed do eiusmond<br>tempor incidicunt ut labore et dolore magna aliqua.</p>
+            
+            <div id="web">
+                <p class="percent">90%</p>
+				<img src="Images/web design.png" />
+                <p class="fonction">WEB DESIGNER</p>
+            </div>
+            
+            <div id="html">
+                <p class="percent">75%</p>
+                <img src="Images/html css.png" />
+                <p class="fonction">HTML / CSS</p>
+            </div>
+            
+            <div id="design">
+                <p class="percent">70%</p>
+                <img src="Images/graphic design.png" />
+                <p class="fonction">GRAPHIC DESIGN</p>
+            </div>
+            
+            <div id="ux">
+                <p class="percent">85%</p>
+                <img src="Images/ui.png" />
+                <p class="fonction">UI / UX</p>
+            </div>
 		</div>
 
+    
 		<div id="port">
-				<div>
-					<h1>OUR PORTFOLIO</h1>
-				</div>
-				<div>
-					<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet<br>consectuer, adispisci velit, sed quia non numquam</p>
-				</div>
-				<div>
-					<ul class="entete">
-						<li>ALL</li>
-						<li>WEB</li>
-						<li>APPS</li>
-						<li>ICONS</li>
-					</ul>
-				</div>
-				<div class="computer">
-					<img src="isometric.png">
-					<img src="time zone.png">
-					<img src="viro.png">
-					<img src="blog.png">
-				</div>
-				<div>
-					<p><span style="color:white;border:solid 3px color #17c2a4;background: #17c2a4;margin: 10px;">LOAD MORE PROJECTS</span></p>
-				</div>
-		</div>
+            
+            <p id="title4">OUR P<span id="or">ORT</span>FOLIO</p>
+            
+            <p id="paragraph4">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet<br>consectuer, adispisci velit, sed quia non numquam</p>
+            
+			<div id="menu2">
+                <nav>
+                    <ul id="list">
+                        <li><a href="#">ALL</a></li>
+                        <li><a href="#">WEB</a></li>
+                        <li><a href="#">APPS</a></li>
+                        <li><a href="#">ICONS</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div id="computer1">
+				<img src="Images/isometric.png">
+                <p class="isometric">Isometric Perspective Mock-Up</p>
+            </div>
+            
+            <div id="computer2">
+                <img src="Images/time zone.png">
+                <p class="isometric">Time Zone App UI</p>
+            </div>
+            
+            <div id="computer3">
+                <img src="Images/viro.png">
+                <p class="viro">Viro Media Players UI</p>
+            </div>
+            
+            <div id="computer4">
+                <img src="Images/blog.png">
+                <p class="viro">Blog / Magazine Flat UI Kit</p>
+            </div>
+            
+            <p id="btn">LOAD MORE PROJECTS</p>
+            
+		</div> 
+    
 
 		<div id="people">
-				<div>
-					<h1>WHAT POEPLE SAY ABOUT US</h1>
-				</div>
-				<div>
-					<p>Our client love us!</p>
-				</div>
-				<div class="pointe">
-					<img src="point noir.png">
-					<img src="point noir.png">
-					<img src="point noir.png">
-					<img src="point noir.png">
-				</div>
-				<div class="desciption">
-					
-					<p>"Vivamus luctus urna sed urna ultricies<br>ac tempor dui sagittis. In condimentum<br>facilisis porta."</p><p>ADRIANA LIMA<br><p style="color: #ffdd99";>Founder of Instagram</p>
-					<p>"Vivamus luctus urna sed urna ulticies<br>ac tempor dui sagittis. In condimentum<br>facilisis porta."</p><p>ANNE HATHAWAY<br><p style="color: #ffdd99";>lead Designer at Behance</p>
-					<p>"Phaesellus non purus vel arcu tempor<br>commodo. Fusce semper, purus vel luctus<br>molestie, risus sem cursus neque."</p><p>EMMA STONE<br><p style="color: #ffdd99";>Co-Founder of Shazam</p>
-					
-				</div>
+            <p id="title5">WHAT POEP<span id="or5">LE SA</span>Y ABOUT US</p>
+            <p id="paragraph5">Our client love us!</p>
+            
+            <div id="id_complet1">
+                
+                <p class="ndem"><i>“Nullam dapibus blandit orci, viverra<br> gravida dui lobortis eget. Maecenas<br> fringilla urna eu nisl scelerisque.”</i><br><span class="name-prename">CHANEL IMAN</span><br><span class="post-occuped">CEO of Pinterest</span></p>    
+            </div>
+            
+            <div id="id_complet2">
+                
+                <p class="ndem"><i>“Nullam dapibus blandit orci, viverra<br> gravida dui lobortis eget. Maecenas<br> fringilla urna eu nisl scelerisque.”</i><br><span class="name-prename">ADRIANA LIMA</span><br><span class="post-occuped">Founder of Instagram</span></p>    
+            </div>
+            
+            <div id="id_complet3">
+                
+                <p class="ndem"><i>“Nullam dapibus blandit orci, viverra<br> gravida dui lobortis eget. Maecenas<br> fringilla urna eu nisl scelerisque.”</i><br><span class="name-prename">ANNE HATHAWAY</span><br><span class="post-occuped">Lead Designer at Behance</span></p>    
+            </div>
+            
+            <div id="id_complet4">
+                
+                <p class="ndem"><i>“Nullam dapibus blandit orci, viverra<br> gravida dui lobortis eget. Maecenas<br> fringilla urna eu nisl scelerisque.”</i><br><span class="name-prename">EMMA STONE</span><br><span class="post-occuped">Co-Founder of Shazam</span></p>    
+            </div>
+				
 		</div>
+    
 
 		<div id="get">
-				<div>
-					<h1>GET IN TOUCH</h1>
-				</div>
-				<div>
-					<p><strong>1600 Pensylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</strong></p>
-				</div>
-				<div class="liens">
-					<ol>
-						<li><span style="float: left;">Your Name*</span></li>
-						<li style="text-align: center;">Your Email*</li>
-						<li style="float:left;"><br>Your Message*</li>
-					</ol>
-				</div>
-				<div>
-					<p><span style="background:#30bae7;color:white;padding: 8px;">SEND MESSAGE</span></p>
-				</div>
-				<div class="reseaux">
-					<ol>
-						<li style="color:white;">Facebook</li>
-						<li style="color:#30bae7;">Twitter</li>
-						<li style="color:white;">Google+</li>
-						<li style="color:white;">Linkdln</li>
-						<li style="color:white;">Behance</li>
-						<li style="color:white;">Dribble</li>
-						<li style="color:white;">Gitbub</li>
-					</ol>
-				</div>
-		</div>
-	</body>
+
+            <p id="title6">GET <span id="or6">IN TO</span>UCH</p>
+            <p id="paragraph6">1600 Pensylvania Ave NW, Washington, DC  20500, United States of America. Tel: (202) 456-1111</p>
+			
+            <form id="form">
+                <input type="text" name="name" placeholder="Your Name" class="input">
+                <input type="text" name="mail" placeholder="Your Email" class="input">
+                <input type="text" name="mail" placeholder="Your Email" id="textarea">
+            </form>
+            
+            <p id="send">SEND MESSAGE</p>
+         	
+        </div>
+    
+        <footer id="footer">
+            <div id="menu3">
+                <nav>
+                    <ul id="list">
+                        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                        <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.google.fr/" target="_blank">Google+</a></li>
+                        <li><a href="https://fr.linkedin.com/" target="_blank">Linkedln</a></li>
+                        <li><a href="https://www.behance.net/" target="_blank">Behance</a></li>
+                        <li><a href="https://dribbble.com/" target="_blank">Dribble</a></li>
+                        <li><a href="https://github.com/" target="_blank">Github</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>    
+
+</body>
 </html>
